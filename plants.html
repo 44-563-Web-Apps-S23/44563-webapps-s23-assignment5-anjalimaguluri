@@ -13,6 +13,27 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light" style="font-family; font-size: larger; font-size: larger;" >
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#InsectNavbarContent" aria-controls="InsectNavbarContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="InsectNavbarContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="insects.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     <h1 style = "font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: xx-large;color:mediumpurple;background-color: darkkhaki;text-align: center;"> Plants by Naganjali Maguluri</h1>
     <div class="container">
         <div class="row">
@@ -116,8 +137,43 @@
               <div class="btn-group" role="group" aria-label="Remained Lettered Insects">
                   <button class="btn btn-md btn-danger btn-outline-dark" type="button">U</button>
               </div>
+            </div><br>
+            <div class="container">
+              <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">
+                      Menu
+                  </button>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="basic.html">Link to Basic Page</a>
+                      <a class="dropdown-item" href="advanced.html">Link to Advanced Page</a>
+                  </div>
+              </div>
             </div>
-
+            <br>
+            <br>
+            <div class="container">
+              <form action="">
+                  <div class="form-group">
+                      <label for="PlantEmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="PlantEmail" 
+                      aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="form-group">
+                      <label for="PlantInput" class="form-label">Plant</label>
+                      <input type="text" class="form-control" id="PlantInput" 
+                      placeholder="Enter Your plant">
+                  </div>
+                  <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="PlantCheck">
+                      <label class="form-check-label" for="PlantCheck">Sign up for newsletter?</label>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit</button>
+              </form>
+            </div>
+            <br>
+            
+            
             
             
 
